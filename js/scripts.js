@@ -13,23 +13,23 @@ $(document).ready(function() {
 
     if (age <= 16) {
       alert("Get outside kid!");
-      $("#intro").show();
-      $("#csharp").hide();
-      $("#ruby").hide();
+      $("#intro").slideToggle().show();
+      $("#csharp").slideToggle().hide();
+      $("#ruby").slideToggle().hide();
     } else if (age >= 75) {
-      $("#intro").show();
-      $("#csharp").hide();
-      $("#ruby").hide();
+      $("#intro").slideToggle().show();
+      $("#csharp").slideToggle().hide();
+      $("#ruby").slideToggle().hide();
     } else if (
       preference === "elegance" || preference === "simplicity" && brainType === "art")
      {
-      $("#ruby").show();
-      $("#csharp").hide();
-      $("#intro").hide();
+      $("#ruby").slideToggle().show();
+      $("#csharp").slideToggle().hide();
+      $("#intro").slideToggle().hide();
     } else {
-      $("#csharp").show();
-      $("#ruby").hide();
-      $("#intro").hide();
+      $("#csharp").slideToggle().show();
+      $("#ruby").slideToggle().hide();
+      $("#intro").slideToggle().hide();
     }
     event.preventDefault();
   });
