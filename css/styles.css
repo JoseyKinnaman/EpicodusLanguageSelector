@@ -24,3 +24,7 @@ body {
   width: 150px;
   margin-bottom: 35px;
 }
+
+input#age {
+  width: 20%;
+}
