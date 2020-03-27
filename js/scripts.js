@@ -10,6 +10,25 @@ $(document).ready(function() {
     console.log(startDate);
     var favoriteColor = $("#color").val();
     console.log(favoriteColor);
+
+    if (age <= 16) {
+      alert("Get outside kid!");
+      $("#intro").show();
+      $("#csharp").hide();
+      $("#ruby").hide();
+    } else if (age >= 75) {
+      $("#intro").show();
+      $("#csharp").hide();
+      $("#ruby").hide();
+    } else if (preference === "elegance" && brainType === "art") {
+      $("#ruby").show();
+      $("#csharp").hide();
+      $("#intro").hide();
+    } else {
+      $("#csharp").show();
+      $("#ruby").hide();
+      $("#intro").hide();
+    }
     event.preventDefault();
   });
 });
