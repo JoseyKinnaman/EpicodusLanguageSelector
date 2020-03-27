@@ -37,3 +37,27 @@ button {
 .answer {
   background-color: darkturquoise;
 }
+
+#ruby {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
+
+#intro {
+  display: none;
+}
+
+select#preference {
+  width: 20%;
+}
+
+input#startDate {
+  width: 20%;
+}
+
+input#color {
+  width: 20%;
+}
