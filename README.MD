@@ -25,4 +25,4 @@
 * jQuery
 
 ### License 
-Copyright (C) Jozy Kinnaman 2020 MIT
+Copyright (C) Jozy Kinnaman, 2020 MIT.
