@@ -7,160 +7,158 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <title>Language Quiz</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2">
-          <img id="logo" src="img/epicodus-logo-300.png" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="https://www.epicodus.com/"><img id="logo" src="img/epicodus-logo-300.png" alt="" /></a>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="box">
-            <div class="card" id="introHead">
-              <h1><strong>Picker 2020:</strong></h1>
-              </div>
-          </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box">
+              <div class="card" id="introHead">
+                <h1><strong>Programming Language Suggesting Tool</strong></h1>
+                </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card">
-              <p>
-                So you are considering a career change and you are considering
-                coding? Look no further, our state of the art programming
-                language selector will help you decide which stack fits your
-                needs and prepare you for a career path in web develeopment,
-                software engineering or computer programming.
-              </p>
-            </div>
-            </div>
-          </div>
-          <form id="language">
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card">
-              <div class="form-group">
-                <label for="age">PLEASE ENTER YOUR AGE:</label>
-                <input id="age" class="form-control" type="number">
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card">
+                <p>
+                  So you are considering a career change and you are considering
+                  coding? Look no further, our state of the art programming
+                  language selector will help you decide which stack fits your
+                  needs and prepare you for a career path in web develeopment,
+                  software engineering or computer programming.
+                </p>
+              </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card">
-              <label for="preference">WHICH OF THE FOLLOWING DO YOU PREFER MORE?</label>
-              <select class="form-control" id="preference">
-                <option value="elegance">ELEGANCE</option>
-                <option value="simplicity">SIMPLICITY</option>
-                <option value="logic">LOGIC</option>
-                <option value="organization">ORGANIZATION</option>
-              </select>
+            <form id="language">
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card">
+                <div class="form-group">
+                  <label for="age">PLEASE ENTER YOUR AGE:</label>
+                  <input id="age" class="form-control" type="number">
+                </div>
+              </div>
+              </div>
             </div>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card">
+                <label for="preference">WHICH OF THE FOLLOWING DO YOU PREFER MORE?</label>
+                <select class="form-control" id="preference">
+                  <option value="elegance">ELEGANCE</option>
+                  <option value="simplicity">SIMPLICITY</option>
+                  <option value="logic">LOGIC</option>
+                  <option value="organization">ORGANIZATION</option>
+                </select>
+              </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card">
-             <div class="radio">
-               <h6>ARE YOU MORE DRAWN TO...</h6>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card">
+              <div class="radio">
+                <h6>ARE YOU MORE DRAWN TO...</h6>
+                <label>
+                <input type="radio" name="brainType" value="art" checked>
+                Art or design.
+              </label>
+            </div>
+            <div class="radio">
               <label>
-              <input type="radio" name="brainType" value="art" checked>
-              Art or design.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="brainType" value="numbers">
-              Numbers and data.
-            </label>
+                <input type="radio" name="brainType" value="numbers">
+                Numbers and data.
+              </label>
+                </div>
+              </div>
               </div>
             </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card">
-             <div class="form-group">
-              <label for="startDate">Start Date:</label>
-              <input id="startDate" class="form-control" type="date">
-            </div>
-          </div>
-          </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card">
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card">
               <div class="form-group">
-                <label for="color">What is your favorite color?</label>
-                <input id="color" class="form-control" type="color">
+                <label for="startDate">Start Date:</label>
+                <input id="startDate" class="form-control" type="date">
               </div>
             </div>
             </div>
-          </div>
-          <button type="submit" class="btn btn-dark">SUBMIT</button>
-          </form>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card answer" id="ruby">
-              <h2>You should try Ruby!</h2>
-              <p>
-                Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework. 
-                <br></br>
-                Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.
-              </p>
             </div>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card">
+                <div class="form-group">
+                  <label for="color">What is your favorite color?</label>
+                  <input id="color" class="form-control" type="color">
+                </div>
+              </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card answer" id="csharp">
-              <h2>You should try C#!</h2>
-              <p>
-                The C# ("C sharp") programming language is most commonly used with the .NET framework. Students who are well-versed in C# programming can use it to create client applications, database applications, distributed components, and much more.
-                <br></br>
-                Students who learn C# programming and combine it with their knowledge of the .NET framework can target larger enterprises, government agencies, and companies serving enterprise and government clients for employment. 
-                <br></br>
-                Companies using C# and .NET who have hired Epicodus graduates include Windsor and Incomm.
-              </p>
+            <button type="submit" class="btn btn-dark">SUBMIT</button>
+            </form>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card answer" id="ruby">
+                <h2>You should try Ruby!</h2>
+                <p>
+                  Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework. 
+                  <br></br>
+                  Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.
+                </p>
+              </div>
+              </div>
             </div>
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card answer" id="csharp">
+                <h2>You should try C#!</h2>
+                <p>
+                  The C# ("C sharp") programming language is most commonly used with the .NET framework. Students who are well-versed in C# programming can use it to create client applications, database applications, distributed components, and much more.
+                  <br></br>
+                  Students who learn C# programming and combine it with their knowledge of the .NET framework can target larger enterprises, government agencies, and companies serving enterprise and government clients for employment. 
+                  <br></br>
+                  Companies using C# and .NET who have hired Epicodus graduates include Windsor and Incomm.
+                </p>
+              </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="card answer" id="intro">
-              <h2>... maybe stick with the intro.</h2>
-              <p>
-              This course is for beginners to learn the fundamentals of programming. After completing this course, you'll be able to build basic web pages and understand programming fundamentals. No coding experience is required, but computer proficiency is necessary.
-            <ol> Here's some of what we'll cover:
+            <div class="row">
+              <div class="col-md-12">
+              <div class="card answer" id="intro">
+                <h2>... maybe stick with the intro.</h2>
+                <p>
+                This course is for beginners to learn the fundamentals of programming. After completing this course, you'll be able to build basic web pages and understand programming fundamentals. No coding experience is required, but computer proficiency is necessary.</p>
+                <ol> Here's some of what we'll cover:
 
-                <li>and CSS: The presentation and styling languages of the web</li> 
+                  <li>and CSS: The presentation and styling languages of the web</li> 
 
-                <li>Git: The tool programmers use to track their code</li> 
+                  <li>Git: The tool programmers use to track their code</li> 
 
-                <li>Command line: The tool programmers use to interact with their computers</li> 
+                  <li>Command line: The tool programmers use to interact with their computers</li> 
 
-                <li>Markdown: A simple language for documents</li> 
+                  <li>Markdown: A simple language for documents</li> 
 
-                <li>JavaScript: The programming language of the web</li> 
+                  <li>JavaScript: The programming language of the web</li> 
 
-                <li>jQuery: A JavaScript library for making interactive web pages</li> 
+                  <li>jQuery: A JavaScript library for making interactive web pages</li> 
 
-                <li>Bootstrap: A framework for easily creating good-looking websites</li> 
-              </ol>
-              </p>
-            </div>
+                  <li>Bootstrap: A framework for easily creating good-looking websites</li> 
+                </ol>
+              </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    <footer><a href="https://www.epicodus.com/"><img id="logo1" src="img/epicodus-logo-300.png" alt="" /></a>Learn to program at <a href="http://www.epicods.com/">Epicodus</a>
+© 2020 Epicodus, Inc.</footer>
   </body>
 </html>

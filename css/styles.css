@@ -8,7 +8,7 @@ body {
   text-align: center;
   padding: 50px;
   font-weight: lighter;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card {
@@ -60,4 +60,19 @@ input#startDate {
 
 input#color {
   width: 20%;
+}
+
+footer {
+  text-align: center;
+}
+
+#logo1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+a {
+  color: red;
 }

@@ -20,7 +20,9 @@ $(document).ready(function() {
       $("#intro").show();
       $("#csharp").hide();
       $("#ruby").hide();
-    } else if (preference === "elegance" && brainType === "art") {
+    } else if (
+      preference === "elegance" || preference === "simplicity" && brainType === "art")
+     {
       $("#ruby").show();
       $("#csharp").hide();
       $("#intro").hide();
